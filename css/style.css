@@ -1,6 +1,6 @@
 * {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 #showcase {
   background-image: url('../img/showcase.jpg');
   background-size: cover;
-  background-position-x: center;
+  background-position: center;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -63,10 +63,12 @@ body {
 
 #section-c {
   display: flex;
+  flex-wrap: wrap;
 }
 
 #section-c div {
   padding: 20px;
+  flex: 1 0 0;
 }
 
 #section-c .box-1, #section-c .box-3 {
